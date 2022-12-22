@@ -1,0 +1,6 @@
+a = "Hey ,  (name) Here!".format(name = "Kanika")
+print (a)
+b = "My SID is (sid)".format(sid = "22105052")
+print (b)
+c = "I am from (abc) department and my CGPA is 9.9".format(abc = "ECE")
+print (c)

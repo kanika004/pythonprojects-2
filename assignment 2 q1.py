@@ -1,0 +1,22 @@
+line = "PYTHON IS A CASE SENSITIVE LANGUAGE"
+#question a)
+a = len(line)
+print("A)",a)
+#question b)
+b = line[::-1]
+print ("B)",b)
+#question c)
+start = line.find("A")
+end = line.find("LANGUAGE")
+c = slice(start,end)
+c = line[c]
+print ("C)",c)
+#question d)
+d = line.replace("A CASE SENSITIVE","OBJECT ORIENTED")
+print ("D)",d)
+#question e)
+e = line.index("A")
+print ("E",e)
+#question f)
+f = line.replace(" ","")
+print ("F",f)
